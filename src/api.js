@@ -1,5 +1,5 @@
 // src/api.js
-const API_URL = "https://backendhospital.up.railway.app";
+const API_URL = "https://backendhospital.up.railway.app/api";
 
 export const fetchResources = async () => {
   const response = await fetch(`${API_URL}/resources`);
