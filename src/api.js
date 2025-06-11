@@ -1,5 +1,5 @@
 // src/api.js
-const API_URL = "https://backendhospital.up.railway.app/api";
+const API_URL = "https://backend-hospital-9j9s.onrender.com/api";
 
 export const fetchResources = async () => {
   const response = await fetch(`${API_URL}/resources`);
